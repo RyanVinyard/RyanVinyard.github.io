@@ -20,9 +20,9 @@ _Contact me at: rav.ryanvinyard@gmail.com for support or information._
 
 ## Known Bugs
 
-*_Collapse Button does not function exclusively on mobile devices despite working on computer when window is resized.
+_Collapse Button does not function exclusively on mobile devices despite working on computer when window is resized.
 
-Picture scales out of frame when browser is resized to very small sizes._*
+Picture scales out of frame when browser is resized to very small sizes._
 
 ## Technologies Used
 
