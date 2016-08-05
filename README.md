@@ -18,6 +18,12 @@ _This serves as my professional portfolio. It details who I am and the projects 
 
 _Contact me at: rav.ryanvinyard@gmail.com for support or information._
 
+## Known Bugs
+
+*_Collapse Button does not function exclusively on mobile devices despite working on computer when window is resized.
+
+Picture scales out of frame when browser is resized to very small sizes._*
+
 ## Technologies Used
 
 _HTML, Markdown, CSS, Bootstrap Git._
