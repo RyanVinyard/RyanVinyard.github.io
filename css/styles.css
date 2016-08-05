@@ -1,5 +1,5 @@
 body {
-  padding-top: 110px;
+  padding-top: 150px;
 }
 
 .jumbotron h1{
@@ -86,4 +86,9 @@ ol {
 
 strong {
   color: #006600;
+}
+
+h4 {
+  text-align: center;
+  color: #a6a6a6;
 }
