@@ -1,3 +1,25 @@
+body {
+  padding-top: 110px;
+}
+
+.jumbotron h1{
+  text-align: center;
+  font-family: "Times New Roman", serif;
+  font-weight: bold;
+  color: #a6a6a6;
+}
+
+.jumbotron h2{
+  text-align: center;
+  font-family: "Times New Roman", serif;
+  color: #a6a6a6;
+  font-size: 16pt;
+}
+
+.jumbotron {
+  background: rgba(0,0,0,0.6);
+}
+
 .navbar-right {
   text-align: center;
   color: #006600;
@@ -10,4 +32,20 @@
   padding-top: 10px;
   font-size: 16pt;
   font-family: "Times New Roman", serif;
+}
+
+.navbar.transparent.navbar-inverse {
+  background: rgba(0,0,0,0.6);
+
+  /* I used some Googling to figure out how to make a transparent nav bar because they are neat looking, I had to play around with this a lot to get it to look cool. I hope that was an ok thing for me to do. */
+}
+
+.jumbotron {
+  padding: 10px;
+}
+
+.img-circle {
+  float: left;
+  width: 20%;
+  padding: 30px;
 }
