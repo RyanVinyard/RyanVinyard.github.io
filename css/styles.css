@@ -18,6 +18,7 @@ body {
 
 .jumbotron {
   background: rgba(0,0,0,0.6);
+  margin-bottom: 80px;
 }
 
 .navbar-right {
@@ -48,4 +49,40 @@ body {
   float: left;
   width: 20%;
   padding: 30px;
+  margin: 30px;
+}
+
+p {
+  color: white;
+  font-family: "Helvetica" sans-serif;
+  font-size: 18pt;
+  margin: 40px;
+}
+
+.goals {
+  color: inherit;
+  font-size: 18pt;
+  padding: 40px;
+  color: white;
+}
+
+h3 {
+  color: white;
+  padding: 80px;
+  text-align: center;
+}
+
+.bodytext {
+  border: 6px;
+  background: rgba(0,0,0,0.6);
+  margin: 30px;
+  border-radius: 25px
+}
+
+ol {
+  list-style-position: inside;
+}
+
+strong {
+  color: #006600;
 }
