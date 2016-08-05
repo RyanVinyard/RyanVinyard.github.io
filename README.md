@@ -10,7 +10,7 @@ _This serves as my professional portfolio. It details who I am and the projects 
 
 ## Setup/Installation Requirements
 
-* _Clone from github repository at: _
+* _Clone from github repository at:https://github.com/RyanVinyard/Portfolio_
 * _Alternatively, view at:_
 
 
