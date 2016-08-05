@@ -24,7 +24,7 @@ _Contact me at: rav.ryanvinyard@gmail.com for support or information._
 
 ## Technologies Used
 
-_HTML, Markdown, CSS, Bootstrap._
+_HTML, Markdown, CSS, Bootstrap Git._
 
 ### License
 

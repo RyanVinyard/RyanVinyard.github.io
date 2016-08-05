@@ -1,0 +1,13 @@
+.navbar-right {
+  text-align: center;
+  color: #006600;
+  font-size: 12pt;
+  font-family: "Times New Roman", serif;
+  padding-top: 15px;
+}
+
+.navbar-left {
+  padding-top: 10px;
+  font-size: 16pt;
+  font-family: "Times New Roman", serif;
+}
