@@ -14,10 +14,6 @@ _This serves as my professional portfolio. It details who I am and the projects 
 * _Alternatively, view at:_
 
 
-## Known Bugs
-
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
-
 ## Support and contact details
 
 _Contact me at: rav.ryanvinyard@gmail.com for support or information._
