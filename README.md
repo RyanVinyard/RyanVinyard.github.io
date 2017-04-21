@@ -1,39 +1,27 @@
-# _Ryan Vinyard's Portfolio_
+# _Ryan Vinyard Professional Portfolio_
 
-#### _Professional Portfolio for Ryan Vinyard, August 5th, 2016_
+#### _A (somewhat) polished portfolio webpage, April 2017_
 
 #### By _**Ryan Vinyard**_
 
 ## Description
 
-_This serves as my professional portfolio. It details who I am and the projects I have done._
-
-## Setup/Installation Requirements
-
-* _Clone from github repository at:https://github.com/RyanVinyard/Portfolio_
-* _Alternatively, view at:https://ryanvinyard.github.io/Portfolio/_
-
-
-## Support and contact details
-
-_Contact me at: rav.ryanvinyard@gmail.com for support or information._
+_This is a start on what will become my portfolio webpage. It is designed to look nice and highlight some of the things I can do while also being brief._
 
 ## Known Bugs
 
-_Collapse Button does not function exclusively on mobile devices despite working on computer when window is resized.
+_None at the moment_
 
-Picture scales out of frame when browser is resized to very small sizes._
+## Support and contact details
+
+_Rav.ryanvinyard@gmail.com_
 
 ## Technologies Used
 
-_HTML, Markdown, CSS, Bootstrap Git._
+_Git, HTML/CSS, Bootstrap_
 
 ### License
 
-*Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+*Free use under MIT license*
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*
-
-Copyright (c) 2016 **_Ryan Vinyard_**
+Copyright (c) 2017 **_Ryan Vinyard_**
