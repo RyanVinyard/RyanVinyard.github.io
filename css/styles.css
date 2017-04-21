@@ -3,6 +3,32 @@ body {
   background-image: url(../img/mainBackground.jpg);
 }
 
+ol {
+  list-style-position: inside;
+}
+
+strong {
+  color: #006600;
+}
+
+h4 {
+  text-align: center;
+  color: #a6a6a6;
+}
+
+p {
+  color: white;
+  font-family: "Helvetica" sans-serif;
+  font-size: 18pt;
+  margin: 40px;
+}
+
+h3 {
+  color: white;
+  padding: 80px;
+  text-align: center;
+}
+
 .jumbotron h1{
   text-align: center;
   font-family: "Times New Roman", serif;
@@ -44,18 +70,6 @@ body {
 
 .img-circle {
   float: left;
-  /*width: 360px;
-  padding: 30px;
-  margin: 30px;*/
-}
-
-
-
-p {
-  color: white;
-  font-family: "Helvetica" sans-serif;
-  font-size: 18pt;
-  margin: 40px;
 }
 
 .goals {
@@ -65,31 +79,10 @@ p {
   color: white;
 }
 
-h3 {
-  color: white;
-  padding: 80px;
-  text-align: center;
-}
-
 .bodytext {
   border: 6px;
   background: rgba(60,51,153,0.4);
   border-radius: 25px;
-}
-
-
-
-ol {
-  list-style-position: inside;
-}
-
-strong {
-  color: #006600;
-}
-
-h4 {
-  text-align: center;
-  color: #a6a6a6;
 }
 
 /*This group of breaks will make my photo look nice on various viewports
