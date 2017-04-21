@@ -20,6 +20,8 @@ body {
 .jumbotron {
   background: rgba(60,51,153,0.4);
   margin-bottom: 80px;
+  padding: 10px;
+  border-radius: 25px !important;
 }
 
 .navbar-right {
@@ -38,10 +40,6 @@ body {
 
 .navbar.transparent.navbar-inverse {
   background: rgba(0,0,0,0.6);
-}
-
-.jumbotron {
-  padding: 10px;
 }
 
 .img-circle {
@@ -73,7 +71,7 @@ h3 {
 
 .bodytext {
   border: 6px;
-  background: rgba(0,0,0,0.6);
+  background: rgba(60,51,153,0.4);
   margin: 100px;
   border-radius: 25px;
   padding: 40px;
