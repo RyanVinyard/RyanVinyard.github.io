@@ -1,5 +1,6 @@
 body {
   padding-top: 150px;
+  background-image: url(../img/mainBackground.jpg);
 }
 
 .jumbotron h1{
@@ -17,7 +18,7 @@ body {
 }
 
 .jumbotron {
-  background: rgba(0,0,0,0.6);
+  background: rgba(60,51,153,0.4);
   margin-bottom: 80px;
 }
 
@@ -37,8 +38,6 @@ body {
 
 .navbar.transparent.navbar-inverse {
   background: rgba(0,0,0,0.6);
-
-  /* I used some Googling to figure out how to make a transparent nav bar because they are neat looking, I had to play around with this a lot to get it to look cool. I hope that was an ok thing for me to do. */
 }
 
 .jumbotron {
