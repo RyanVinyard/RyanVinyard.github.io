@@ -44,10 +44,12 @@ body {
 
 .img-circle {
   float: left;
-  width: 360px;
+  /*width: 360px;
   padding: 30px;
-  margin: 30px;
+  margin: 30px;*/
 }
+
+
 
 p {
   color: white;
@@ -72,10 +74,10 @@ h3 {
 .bodytext {
   border: 6px;
   background: rgba(60,51,153,0.4);
-  margin: 100px;
   border-radius: 25px;
-  padding: 40px;
 }
+
+
 
 ol {
   list-style-position: inside;
@@ -88,4 +90,48 @@ strong {
 h4 {
   text-align: center;
   color: #a6a6a6;
+}
+
+/*This group of breaks will make my photo look nice on various viewports
+------------------------------------------------------------------------
+*/
+
+@media (min-width:500px) {
+  .img-circle {
+    width: 360px;
+    padding: 30px;
+    margin: 30px;
+  }
+}
+
+@media (max-width:499px) {
+  .img-circle {
+    width: 240px;
+    padding: 10px;
+    margin: 10px;
+  }
+}
+
+/*This group of breaks will make the text itself look nice on various viewports
+------------------------------------------------------------------------
+*/
+
+@media (min-width:500px) {
+  .bodytext {
+    margin: 40px;
+    padding: 20px;
+  }
+}
+
+@media (max-width:499px) {
+  .bodytext {
+    margin: 0px;
+    padding: 0px;
+  }
+  .bodytext p {
+    font-size: 12pt;
+  }
+  .goals {
+    font-size: 14pt;
+  }
 }
