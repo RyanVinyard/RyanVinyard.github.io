@@ -12,12 +12,12 @@ ol {
 }
 
 a:link {
-    color: deeppink;
+    color: hotpink;
     
 }
 
 a:hover {
-    color:hotpink;
+    color: pink;
 }
 
 strong {
