@@ -11,6 +11,15 @@ ol {
   list-style-position: inside;
 }
 
+a:link {
+    color: deeppink;
+    
+}
+
+a:hover {
+    color:hotpink;
+}
+
 strong {
     color: #ffffcc;
 }
