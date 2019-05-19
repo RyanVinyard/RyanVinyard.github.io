@@ -83,6 +83,8 @@ h3 {
 
 .img-circle {
   float: left;
+  margin: -25px;
+  padding: -25px;
 }
 
 .goals {
