@@ -104,6 +104,11 @@ h3 {
   border-radius: 25px;
 }
 
+text
+{
+    font-family: Calibri;
+}
+
 /*This group of breaks will make my photo look nice on various viewports
 ------------------------------------------------------------------------
 */
