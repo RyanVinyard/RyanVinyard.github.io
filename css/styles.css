@@ -1,6 +1,10 @@
+background: #283048; /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #859398, #283048); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 body {
-  padding-top: 150px;
-  background-image: url("https://static1.squarespace.com/static/58add4c2e58c62e3daab2c39/t/58addbfa197aea2749e68b8a/1487789068166/website-background-images-tile-wallpaper-desktop.jpg?format=1500w");
+    padding-top: 150px;
+    background-image: url("https://static1.squarespace.com/static/58add4c2e58c62e3daab2c39/t/58addbfa197aea2749e68b8a/1487789068166/website-background-images-tile-wallpaper-desktop.jpg?format=1500w");
 }
 
 ol {
