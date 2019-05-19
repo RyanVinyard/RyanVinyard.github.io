@@ -20,6 +20,10 @@ a:hover {
     color: pink;
 }
 
+a {
+    color: hotpink;
+}
+
 strong {
     color: #ffffcc;
 }
