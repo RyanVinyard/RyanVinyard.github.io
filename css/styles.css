@@ -84,6 +84,7 @@ h3 {
 .navbar.transparent {
   background: rgba(0,0,0,0.6);
   background: background: -webkit-linear-gradient(to bottom right, #000000, #454851);
+  border: none;
 }
 
 .img-circle {
