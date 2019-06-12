@@ -3,7 +3,7 @@
 body {
     padding-top: 150px;
     background: #283048; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #859398, #283048); /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to bottom right, #5A7684, #454851); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -83,6 +83,7 @@ h3 {
 
 .navbar {
   background: rgba(0,0,0,0.6);
+  background: background: -webkit-linear-gradient(to bottom right, #000000, #454851);
 }
 
 .img-circle {
