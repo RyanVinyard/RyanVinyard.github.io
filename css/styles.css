@@ -2,9 +2,9 @@
 
 body {
     padding-top: 150px;
-    
+    background-color: #283048; /* fallback for old browsers */
 
-    background-image: url("C:\Users\Ryan\Pictures\Portland-bridge.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url("img/background.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 ol {
