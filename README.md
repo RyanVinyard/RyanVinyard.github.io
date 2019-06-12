@@ -1,16 +1,12 @@
 # _Ryan Vinyard Professional Portfolio_
 
-#### _A (somewhat) polished portfolio webpage, April 2017_
+#### _A Portfolio Webpage. Last Updated June 2019_
 
 #### By _**Ryan Vinyard**_
 
 ## Description
 
-_This is a start on what will become my portfolio webpage. It is designed to look nice and highlight some of the things I can do while also being brief._
-
-## Known Bugs
-
-_None at the moment_
+_The purpose of this webpage is to showcase my skills and projects, as well as give relevant personal information._
 
 ## Support and contact details
 
@@ -18,10 +14,10 @@ _Rav.ryanvinyard@gmail.com_
 
 ## Technologies Used
 
-_Git, HTML/CSS, Bootstrap_
+_Git, HTML/CSS, Bootstrap, Microsoft Visual Studio_
 
 ### License
 
 *Free use under MIT license*
 
-Copyright (c) 2017 **_Ryan Vinyard_**
+Copyright (c) 2019 **_Ryan Vinyard_**
