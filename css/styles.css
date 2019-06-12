@@ -87,7 +87,7 @@ h3 {
 }
 
 .navbar.transparent {
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.75);
   background: background: -webkit-linear-gradient(to bottom right, #000000, #454851);
   border: none;
 }
@@ -107,7 +107,7 @@ h3 {
 
 .bodytext {
   border: 6px;
-  background: rgba(40,20,100,0.6);
+  background: rgba(40,20,100,0.75);
   border-radius: 25px;
 }
 
