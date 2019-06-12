@@ -81,7 +81,7 @@ h3 {
   font-family: "Calibri", serif;
 }
 
-.navbar.transparent.navbar-inverse {
+.navbar {
   background: rgba(0,0,0,0.6);
 }
 
