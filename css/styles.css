@@ -81,7 +81,7 @@ h3 {
   font-family: "Calibri", serif;
 }
 
-.navbar-transparent {
+.navbar.transparent {
   background: rgba(0,0,0,0.6);
   background: background: -webkit-linear-gradient(to bottom right, #000000, #454851);
 }
