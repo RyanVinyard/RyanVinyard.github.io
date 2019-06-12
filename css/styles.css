@@ -3,7 +3,7 @@
 body {
     padding-top: 150px;
     background: #283048; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom right, #5A7684, #454851); /* Chrome 10-25, Safari 5.1-6 */
+
     background-image: url("C:\Users\Ryan\Pictures\Portland-bridge.jpg") /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
