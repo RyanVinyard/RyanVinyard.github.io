@@ -53,10 +53,11 @@ h3 {
   color: white;
 }
 
-.jumbotron h2{
-  text-align: center;
-  font-family: "Calibri", serif;
-  font-size: 16pt;
+.jumbotron h2 {
+    text-align: center;
+    font-family: "Calibri", serif;
+    font-size: 16pt;
+    color: #a6a6a6;
 }
 
 .jumbotron {
