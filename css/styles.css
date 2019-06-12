@@ -2,7 +2,7 @@
 
 body {
     padding-top: 150px;
-    background-image: url("img/background.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url("img/background.jpg") !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-color: #283048; /* fallback for old browsers */
     background-repeat: no-repeat;
     background-size: cover;
