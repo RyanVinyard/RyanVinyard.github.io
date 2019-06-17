@@ -91,7 +91,7 @@ h3 {
   border: none;
 }
 
-.img-circle {
+.img-rounded-circle {
   float: left;
   margin: 0px 0px 0px 0px;
  
@@ -120,7 +120,7 @@ text
 */
 
 @media (min-width:500px) {
-  .img-circle {
+  .img-rounded-circle {
     width: 360px;
     padding: 4px;
     margin: 4px;
@@ -128,7 +128,7 @@ text
 }
 
 @media (max-width:499px) {
-  .img-circle {
+  .img-rounded-circle {
     width: 240px;
     padding: 10px;
     margin: 10px;
