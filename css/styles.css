@@ -91,12 +91,10 @@ h3 {
   border: none;
 }
 
-.img-rounded-circle {
+.img-circle {
   float: left;
   margin: 0px 0px 0px 0px;
-  width: 360px;
-  padding: 4px;
-  margin: 4px;
+ 
 }
 
 .goals {
@@ -117,14 +115,12 @@ text
     font-family: Calibri;
 }
 
-
-
 /*This group of breaks will make my photo look nice on various viewports
 ------------------------------------------------------------------------
 */
 
 @media (min-width:500px) {
-  .img-rounded-circle {
+  .img-circle {
     width: 360px;
     padding: 4px;
     margin: 4px;
@@ -132,7 +128,7 @@ text
 }
 
 @media (max-width:499px) {
-  .img-rounded-circle {
+  .img-circle {
     width: 240px;
     padding: 10px;
     margin: 10px;
