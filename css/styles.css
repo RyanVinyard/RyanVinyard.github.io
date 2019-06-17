@@ -94,7 +94,9 @@ h3 {
 .img-rounded-circle {
   float: left;
   margin: 0px 0px 0px 0px;
- 
+  width: 360px;
+  padding: 4px;
+  margin: 4px;
 }
 
 .goals {
@@ -114,6 +116,8 @@ text
 {
     font-family: Calibri;
 }
+
+
 
 /*This group of breaks will make my photo look nice on various viewports
 ------------------------------------------------------------------------
