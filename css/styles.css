@@ -69,6 +69,7 @@ h3 {
 
 .navbar {
     border: none;
+    padding-bottom: 60px;
 }
 
 .navbar-right {
