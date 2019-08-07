@@ -63,8 +63,7 @@ h3 {
 .jumbotron {
   background: rgba(52,58,64,0.85);
   margin-bottom: 80px;
-  padding-top: 60px;
-  margin-top: 10px;
+  padding-bottom: 60px;
   padding: 10px;
   border-radius: 25px !important;
 }
