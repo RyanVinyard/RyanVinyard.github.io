@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\css",
+    "\\fonts",
     "\\img"
   ],
-  "SelectedNode": "\\img\\background.jpg",
+  "SelectedNode": "\\css\\.DS_Store",
   "PreviewInSolutionExplorer": false
 }
