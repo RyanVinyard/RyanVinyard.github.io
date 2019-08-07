@@ -33,6 +33,11 @@ h4 {
   color: #a6a6a6;
 }
 
+h5 {
+    font-family: "Lato" sans-serif;
+    color: white
+}
+
 p {
   color: white;
   font-family: "Lato" sans-serif;
