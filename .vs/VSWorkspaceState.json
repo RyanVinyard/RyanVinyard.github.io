@@ -3,8 +3,9 @@
     "",
     "\\css",
     "\\fonts",
-    "\\img"
+    "\\img",
+    "\\js"
   ],
-  "SelectedNode": "\\css\\.DS_Store",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }
