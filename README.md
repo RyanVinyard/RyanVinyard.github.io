@@ -1,6 +1,6 @@
 # _Ryan Vinyard Professional Portfolio_
 
-#### _A Portfolio Webpage to introduce myself, as well as show projects I've worked on.
+#### _A Portfolio Webpage to introduce myself, as well as show projects I've worked on._
 
 #### By _**Ryan Vinyard**_
 
