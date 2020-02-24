@@ -1,6 +1,6 @@
 # _Ryan Vinyard Professional Portfolio_
 
-#### _A Portfolio Webpage. Last Updated June 2019_
+#### _A Portfolio Webpage to introduce myself, as well as show projects I've worked on.
 
 #### By _**Ryan Vinyard**_
 
@@ -20,4 +20,4 @@ _Git, HTML/CSS, Bootstrap, Microsoft Visual Studio_
 
 *Free use under MIT license*
 
-Copyright (c) 2019 **_Ryan Vinyard_**
+Copyright (c) **_Ryan Vinyard_**
