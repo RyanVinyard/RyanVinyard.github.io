@@ -1,137 +1,25 @@
 
 
 body {
-    padding-top: 50px;
     background-image: url("../img/background.jpg") !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-color: #283048; /* fallback for old browsers */
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-ol {
-  list-style-position: inside;
-}
-
-a:link {
-    color: #A5CCD1;
-}
-
-a:hover {
-    color: pink;
-}
-
-a {
-    color: #A5CCD1;
-}
-
-strong {
-    color: #70A0AF;
-}
-
-h4 {
-  text-align: center;
-  color: #a6a6a6;
-}
-
-h5 {
-    font-family: "Lato" sans-serif;
-    color: white
-}
-
-p {
-  color: white;
-  font-family: "Lato" sans-serif;
-  font-size: 18pt;
-}
-
-h3 {
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-
-.jumbotron h1{
-  text-align: center;
-  font-family: "Lato", serif;
-  font-weight: bold;
-  color: white;
-}
-
-.jumbotron h2 {
-    text-align: center;
-    font-family: "Lato", serif;
-    font-size: 16pt;
-    color: #a6a6a6;
-}
-
-.jumbotron {
-  background: rgba(52,58,64,0.85);
-  margin-bottom: 80px;
-  padding-top: 200px;
-  margin-top: 60px;
-  margin-bottom: 20px;
-  padding: 10px;
-  border-radius: 25px !important;
-}
-
-.navbar {
-    border: none;
-    margin-bottom: 60px;
-}
-
-.navbar-right {
-  text-align: center;
-  color: #006600;
-  font-size: 12pt;
-  font-family: "Lato", serif;
-  padding-top: 15px;
-}
-
-.navbar-left {
-  padding-top: 10px;
-  font-size: 16pt;
-  font-family: "Lato", serif;
-}
-
-.navbar.transparent {
-  background: rgba(0,0,0,0.85);
-  background: background: -webkit-linear-gradient(to bottom right, #000000, #454851);
-  border: none;
-}
-
-.img {
-  float: left;
-  margin: 10px 10px 10px 10px !important;
-  padding: 10px !important;
- 
-}
-
-.goals {
-  color: inherit;
-  font-size: 18pt;
-  padding: 40px;
-  color: white;
-}
-
-li {
-    color: #d4d4d4;
-}
-
-
-/*
-.bodytext {
-  border: 6px;
-  background: rgba(20,10,60,0.85);
-  border-radius: 25px;
-}
-
-*/
-
 
 text
 {
     font-family: Calibri;
 }
+
+#me {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -16vh;
+}
+
 
 /*This group of breaks will make my photo look nice on various viewports
 ------------------------------------------------------------------------
@@ -153,26 +41,133 @@ text
   }
 }
 
-/*This group of breaks will make the text itself look nice on various viewports
-------------------------------------------------------------------------
-*/
+/* I'm putting the bubbles navbar CSS below for easy deletion if I don't like it. If you're reading this, hi what's up */
 
-@media (min-width:500px) {
-  .bodytext {
-    margin: 40px;
-    padding: 20px;
+:root {
+  --base-grid: 8px;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.links {
+  --link-size: calc(var(--base-grid)*18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.links__list {
+  position: relative;
+  list-style: none;
+}
+
+.links__item {
+  width: var(--link-size);
+  height: var(--link-size);
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: calc(var(--link-size)/-2);
+  margin-left: calc(var(--link-size)/-2);
+  --angle: calc(360deg/var(--item-total));
+  --rotation: calc(150deg + var(--angle)*var(--item-count));
+  transform: rotate(var(--rotation)) translate(calc(var(--link-size) + var(--base-grid)*2)) rotate(calc(var(--rotation)*-1));
+}
+
+.links__link {
+  opacity: 0;
+  animation: on-load .3s ease-in-out forwards;
+  animation-delay: calc(var(--item-count)*150ms);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+  background-color: #0B132B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.links__icon {
+  width: calc(var(--base-grid)*8);
+  height: calc(var(--base-grid)*8);
+  transition: all .3s ease-in-out;
+  fill:#8DE969;
+}
+
+.links__text {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  color: white;
+  height: calc(var(--base-grid)*2);
+  font-size: calc(var(--base-grid)*2);
+  display: none;
+  bottom: calc(var(--base-grid)*8.5);
+  animation: text .5s ease-in-out forwards;
+}
+
+.links__link:after {
+  content: "";
+  background-color: transparent;
+  width: var(--link-size);
+  height: var(--link-size);
+  border: 4px dotted #8DE969;
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all .5s cubic-bezier(.53,-.67,.73,.74);
+  transform: none;
+  opacity: 0;
+}
+
+.links__link:hover .links__icon {
+  transition: all .55s ease-in-out;
+  transform: translateY(calc(var(--base-grid)*-1)) rotate(375deg);
+}
+
+.links__link:hover .links__text {
+  display: block;
+}
+
+.links__link:hover:after {
+  transition: all 1s cubic-bezier(.37,.74,.15,1.65);
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+@keyframes on-load {
+  0% {
+    opacity: 0;
+    transform: scale(.3);
+  }
+  70% {
+    opacity: .7;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
   }
 }
 
-@media (max-width:499px) {
-  .bodytext {
-    margin: 0px;
-    padding: 0px;
+@keyframes text {
+  0% {
+    opacity: 0;
+    transform: scale(0.3) translateY(0);
   }
-  .bodytext p {
-    font-size: 12pt;
-  }
-  .goals {
-    font-size: 14pt;
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(calc(var(--base-grid)*5));
   }
 }
