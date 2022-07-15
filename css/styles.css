@@ -18,6 +18,7 @@ text
   margin-left: auto;
   margin-right: auto;
   margin-bottom: -16vh;
+  padding-top: 2vh;
 }
 
 
@@ -41,6 +42,8 @@ text
   }
 }
 
+
+
 /* I'm putting the bubbles navbar CSS below for easy deletion if I don't like it. If you're reading this, hi what's up */
 
 :root {
@@ -53,11 +56,13 @@ text
 
 .links {
   --link-size: calc(var(--base-grid)*18);
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   min-height: 100vh;
+  margin-left: 1vw;
+  margin-right: auto;
 }
 
 .links__list {
