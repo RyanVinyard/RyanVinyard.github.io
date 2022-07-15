@@ -15,9 +15,10 @@ text
 
 #me {
   display: block;
+  align-items: center;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: -16vh;
   padding-top: 2vh;
 }
 
@@ -56,13 +57,19 @@ text
 
 .links {
   --link-size: calc(var(--base-grid)*18);
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  min-height: 100vh;
-  margin-left: 1vw;
+  min-height: 60vh;
+  min-width: 50vw;
   margin-right: auto;
+}
+
+@media (max-width:499px) {
+  .links {
+    margin-left: 26vw;
+    width: 50%;
+  }
 }
 
 .links__list {
@@ -80,7 +87,7 @@ text
   margin-left: calc(var(--link-size)/-2);
   --angle: calc(360deg/var(--item-total));
   --rotation: calc(150deg + var(--angle)*var(--item-count));
-  transform: rotate(var(--rotation)) translate(calc(var(--link-size) + var(--base-grid)*2)) rotate(calc(var(--rotation)*-1));
+  transform: rotate(var(--rotation)) translate(calc(var(--link-size) + var(--base-grid)*0.1)) rotate(calc(var(--rotation)*-1));
 }
 
 .links__link {
