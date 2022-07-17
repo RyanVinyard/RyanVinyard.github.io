@@ -7,6 +7,26 @@ body {
     background-size: cover;
 }
 
+h1 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
 
 text
 {
@@ -43,9 +63,6 @@ text
   }
 }
 
-
-
-/* I'm putting the bubbles navbar CSS below for easy deletion if I don't like it. If you're reading this, hi what's up */
 
 :root {
   --base-grid: 8px;
