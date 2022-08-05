@@ -1,4 +1,4 @@
-# _Ryan Vinyard Professional Portfolio_
+# _Ryan Vinyard "Professional" Portfolio_
 
 #### _A Portfolio Webpage to introduce myself, as well as show projects I've worked on._
 
