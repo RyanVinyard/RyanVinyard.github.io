@@ -8,58 +8,86 @@ body {
 }
 
 h1 {
-  color: white;
+  color: #D6EEFF;
+  font-size: 38pt;
   font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
 
 h2 {
-  color: white;
+  color: #D6EEFF;
+  font-size: 30pt;
   font-family: 'Roboto', sans-serif;
 }
 
 h3 {
-  color: white;
+  color: #D6EEFF;
+  font-size: 26pt;
   font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+  color: #D6EEFF;
+  font-size: 10pt;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
 
 p {
-  color: white;
+  color: #D6EEFF;
+  font-size: 16pt;
   font-family: 'Roboto', sans-serif;
 }
 
 
-text
-{
-    font-family: Calibri;
-}
-
 #me {
   display: block;
-  align-items: center;
-  justify-content: center;
+  align-items: right;
+  justify-content: right;
   margin-left: auto;
-  margin-right: auto;
-  padding-top: 2vh;
+  margin-top: -12vh;
+  margin-bottom: 2vh;
+  max-width: 100%;
 }
 
+.contact {
+  text-align: center;
+}
+
+/* Bootstrap nixxed jumbotrons in version 5, so I have to make my own or use bootstrap 4 */
+.jumbotron {
+  background-color: rgba(90,100,110,0.85);
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 2vh;
+  padding-bottom: 4vh;
+  border-radius: 24px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+a {
+  color: white;
+  transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+
+a:hover {
+  color: #FFFDD0;
+}
 
 /*This group of breaks will make my photo look nice on various viewports
 ------------------------------------------------------------------------
 */
 
 @media (min-width:500px) {
-  .img-circle {
-    width: 360px;
-    padding: 4px;
-    margin: 4px;
+  #me {
+    width: 300px;
   }
 }
 
 @media (max-width:499px) {
-  .img-circle {
-    width: 240px;
-    padding: 10px;
-    margin: 10px;
+  #me {
+    width: 200px;
   }
 }
 
@@ -72,14 +100,17 @@ text
     box-sizing: border-box;
 }
 
+.links-container {
+  justify-content: left;
+}
+
 .links {
-  --link-size: calc(var(--base-grid)*18);
+  --link-size: calc(var(--base-grid)*14);
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 60vh;
-  min-width: 50vw;
-  margin-right: auto;
+  justify-content: left;
+  align-items: left;
+  margin-top: 8vh;
+  margin-left: 3vw;
 }
 
 @media (max-width:499px) {
