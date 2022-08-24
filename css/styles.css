@@ -9,46 +9,36 @@ body {
 
 h1 {
   color: #D6EEFF;
-  font-size: 38pt;
+  font-size: 5vh;
   font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
 h2 {
   color: #D6EEFF;
-  font-size: 30pt;
+  font-size: 4vh;
   font-family: 'Roboto', sans-serif;
 }
 
 h3 {
   color: #D6EEFF;
-  font-size: 26pt;
+  font-size: 3vh;
   font-family: 'Roboto', sans-serif;
 }
 
 h4 {
   color: #D6EEFF;
-  font-size: 10pt;
+  font-size: 2.5vh;
   font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
 p {
   color: #D6EEFF;
-  font-size: 16pt;
+  font-size: 2vh;
   font-family: 'Roboto', sans-serif;
 }
 
-
-#me {
-  display: block;
-  align-items: right;
-  justify-content: right;
-  margin-left: auto;
-  margin-top: -12vh;
-  margin-bottom: 2vh;
-  max-width: 100%;
-}
 
 .contact {
   text-align: center;
@@ -75,21 +65,33 @@ a:hover {
   color: #FFFDD0;
 }
 
-/*This group of breaks will make my photo look nice on various viewports
+/*This group of breaks will make my photo look nice on various viewports haha jk it looks like crap
 ------------------------------------------------------------------------
 */
 
-@media (min-width:500px) {
+@media (min-width:620px) {
   #me {
-    width: 300px;
+    display: block;
+    align-items: right;
+    justify-content: right;
+    margin-left: auto;
+    margin-top: -12vh;
+    margin-bottom: 2vh;
+    max-width: 100%;
   }
 }
 
-@media (max-width:499px) {
+@media (max-width:619px) {
   #me {
     width: 200px;
+    margin: 1vh;
+    display: block;
+    justify-content: center;
+    margin: auto;
   }
+
 }
+
 
 
 :root {
@@ -100,6 +102,79 @@ a:hover {
     box-sizing: border-box;
 }
 
+@media (max-width:619px) {
+  .links__list {
+    position: relative;
+    list-style: none;
+  }
+  
+  .links__item {
+    width: var(--link-size);
+    height: var(--link-size);
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: calc(var(--link-size)/-2);
+    margin-left: calc(var(--link-size)/-2);
+    --angle: calc(360deg/var(--item-total));
+    --rotation: calc(150deg + var(--angle)*var(--item-count));
+    transform: rotate(var(--rotation)) translate(calc(var(--link-size) + var(--base-grid)*0.1)) rotate(calc(var(--rotation)*-1));
+  }
+  
+  .links__link {
+    opacity: 0;
+    animation: on-load .3s ease-in-out forwards;
+    animation-delay: calc(var(--item-count)*150ms);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+    background-color: #0B132B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+@media (min-width:620px) {
+  .links__list {
+    position: relative;
+    list-style: none;
+  }
+  
+  .links__item {
+    width: var(--link-size);
+    height: var(--link-size);
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: calc(var(--link-size)/-2);
+    margin-left: calc(var(--link-size)/-2);
+    --angle: calc(360deg/var(--item-total));
+    --rotation: calc(150deg + var(--angle)*var(--item-count));
+    transform: rotate(var(--rotation)) translate(calc(var(--link-size) + var(--base-grid)*0.1)) rotate(calc(var(--rotation)*-1));
+  }
+  
+  .links__link {
+    opacity: 0;
+    animation: on-load .3s ease-in-out forwards;
+    animation-delay: calc(var(--item-count)*150ms);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+    background-color: #0B132B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+  }
+}
 .links-container {
   justify-content: left;
 }
@@ -117,43 +192,13 @@ a:hover {
   .links {
     margin-left: 26vw;
     width: 50%;
+    padding: 8.5vh;
+    margin-top: 18vh;
+    margin-bottom: 10vh;
   }
 }
 
-.links__list {
-  position: relative;
-  list-style: none;
-}
 
-.links__item {
-  width: var(--link-size);
-  height: var(--link-size);
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin-top: calc(var(--link-size)/-2);
-  margin-left: calc(var(--link-size)/-2);
-  --angle: calc(360deg/var(--item-total));
-  --rotation: calc(150deg + var(--angle)*var(--item-count));
-  transform: rotate(var(--rotation)) translate(calc(var(--link-size) + var(--base-grid)*0.1)) rotate(calc(var(--rotation)*-1));
-}
-
-.links__link {
-  opacity: 0;
-  animation: on-load .3s ease-in-out forwards;
-  animation-delay: calc(var(--item-count)*150ms);
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  position: relative;
-  background-color: #0B132B;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  color: inherit;
-}
 
 .links__icon {
   width: calc(var(--base-grid)*8);
