@@ -45,15 +45,29 @@ p {
 }
 
 /* Bootstrap nixxed jumbotrons in version 5, so I have to make my own or use bootstrap 4 */
-.jumbotron {
-  background-color: rgba(90,100,110,0.85);
-  padding-left: 4vw;
-  padding-right: 4vw;
-  padding-top: 2vh;
-  padding-bottom: 4vh;
-  border-radius: 24px;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
+
+@media (min-width:620px) {
+  .jumbotron {
+    background-color: rgba(90,100,110,0.85);
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 2vh;
+    padding-bottom: 4vh;
+    border-radius: 24px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+}
+
+@media (max-width:619px) {
+  .jumbotron {
+    background-color: rgba(90,100,110,0.85);
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+    border-radius: 24px;
+  }
 }
 
 a {
@@ -193,11 +207,10 @@ a:hover {
     margin-left: 26vw;
     width: 50%;
     padding: 8.5vh;
-    margin-top: 18vh;
-    margin-bottom: 10vh;
+    margin-top: 16vh;
+    margin-bottom: 4vh;
   }
 }
-
 
 
 .links__icon {
