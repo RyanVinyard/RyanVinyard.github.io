@@ -1,10 +1,15 @@
 
 
-body {
-    background-image: url("../img/background.jpg") !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-color: #283048; /* fallback for old browsers */
-    background-repeat: no-repeat;
-    background-size: cover;
+body, html{
+    height: 100%
+}
+
+.bg {
+  background-image: url("../img/background.jpg") !important; 
+  background-color: #283048; /* fallback for old browsers */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }
 
 h1 {
@@ -28,7 +33,7 @@ h3 {
 
 h4 {
   color: #D6EEFF;
-  font-size: 2.5vh;
+  font-size: 1.5vh;
   font-family: 'Roboto', sans-serif;
   text-align: center;
 }
@@ -44,6 +49,11 @@ p {
   text-align: center;
 }
 
+.skills {
+  display: block;
+  margin-left: 4vw;
+}
+
 /* Bootstrap nixxed jumbotrons in version 5, so I have to make my own or use bootstrap 4 */
 
 @media (min-width:620px) {
@@ -54,8 +64,8 @@ p {
     padding-top: 2vh;
     padding-bottom: 4vh;
     border-radius: 24px;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    
+    
   }
 }
 
@@ -158,6 +168,10 @@ a:hover {
     position: relative;
     list-style: none;
   }
+
+ .links-container {
+  padding-left: 2vw;
+ }
   
   .links__item {
     width: var(--link-size);
