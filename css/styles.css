@@ -4,44 +4,35 @@ body, html{
     height: 100%
 }
 
-.bg {
-  background-image: url("../img/background.jpg") !important; 
-  background-color: #283048; /* fallback for old browsers */
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-}
 
 h1 {
-  color: #D6EEFF;
+  color: #87F2D9;
   font-size: 5vh;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
+  font-family: 'Lora', sans-serif;
 }
 
 h2 {
-  color: #D6EEFF;
+  color: #87F2D9;
   font-size: 4vh;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lora', sans-serif;
 }
 
 h3 {
-  color: #D6EEFF;
+  color: #87F2D9;
   font-size: 3vh;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lora', sans-serif;
 }
 
 h4 {
-  color: #D6EEFF;
-  font-size: 1.5vh;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
+  color: #87F2D9;
+  font-size: 2vh;
+  font-family: 'Lora', sans-serif;
 }
 
 p {
-  color: #D6EEFF;
-  font-size: 2vh;
-  font-family: 'Roboto', sans-serif;
+  color: #87F2D9;
+  font-size: 1.5vh;
+  font-family: 'Lora', sans-serif;
 }
 
 
@@ -51,21 +42,35 @@ p {
 
 .skills {
   display: block;
-  margin-left: 4vw;
+}
+
+.header {
+  text-align: center;
+}
+
+.bg {
+  background-image: url("../img/background.jpg") !important;
+  text-align: left;
 }
 
 /* Bootstrap nixxed jumbotrons in version 5, so I have to make my own or use bootstrap 4 */
 
 @media (min-width:620px) {
   .jumbotron {
-    background-color: rgba(90,100,110,0.85);
+    background-color: rgba(90,100,110,0.91);
     padding-left: 4vw;
     padding-right: 4vw;
     padding-top: 2vh;
     padding-bottom: 4vh;
     border-radius: 24px;
-    
-    
+    }
+
+  .bg {
+    background-image: url("../img/background.jpg") !important; 
+    background-color: #283048; /* fallback for old browsers */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
   }
 }
 
@@ -77,6 +82,10 @@ p {
     padding-top: 1vh;
     padding-bottom: 2vh;
     border-radius: 24px;
+  }
+
+  .bg {
+    background-size: fill;
   }
 }
 
@@ -99,11 +108,15 @@ a:hover {
     align-items: right;
     justify-content: right;
     margin-left: auto;
-    margin-top: -12vh;
-    margin-bottom: 2vh;
+    margin-top: -18vh;
     max-width: 100%;
   }
+
+  .itme {
+    text-align: right;
+  }
 }
+
 
 @media (max-width:619px) {
   #me {
@@ -114,9 +127,11 @@ a:hover {
     margin: auto;
   }
 
+  .itme {
+    text-align: center !important;
+  }
+
 }
-
-
 
 :root {
   --base-grid: 8px;
@@ -214,6 +229,7 @@ a:hover {
   align-items: left;
   margin-top: 8vh;
   margin-left: 3vw;
+  margin-bottom: 4vh;
 }
 
 @media (max-width:499px) {
@@ -231,7 +247,7 @@ a:hover {
   width: calc(var(--base-grid)*8);
   height: calc(var(--base-grid)*8);
   transition: all .3s ease-in-out;
-  fill:#8DE969;
+  fill:#87F2D9;
 }
 
 .links__text {
