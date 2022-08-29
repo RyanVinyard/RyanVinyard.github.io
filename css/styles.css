@@ -58,8 +58,8 @@ p {
 @media (min-width:620px) {
   .jumbotron {
     background-color: rgba(90,100,110,0.91);
-    padding-left: 4vw;
-    padding-right: 4vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
     padding-top: 2vh;
     padding-bottom: 1vh;
     border-radius: 24px;
@@ -77,7 +77,7 @@ p {
 
 @media (max-width:619px) {
   .jumbotron {
-    background-color: rgba(90,100,110,0.85);
+    background-color: rgba(90,100,110,0.91);
     padding-left: 2vw;
     padding-right: 2vw;
     padding-top: 1vh;
