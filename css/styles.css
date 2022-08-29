@@ -29,6 +29,13 @@ h4 {
   font-family: 'Lora', sans-serif;
 }
 
+h5 {
+  color: #87F2D9;
+  font-size: 0.5vh;
+  font-family: 'Lora', sans-serif;
+  text-align: center;
+}
+
 p {
   color: #87F2D9;
   font-size: 1.5vh;
