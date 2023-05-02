@@ -56,7 +56,7 @@ p {
 }
 
 .bg {
-  background-image: url("../img/background.jpg") !important;
+  background-color: #03254c !important;
   text-align: left;
 }
 
