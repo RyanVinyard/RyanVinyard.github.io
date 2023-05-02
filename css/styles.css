@@ -6,38 +6,38 @@ body, html{
 
 
 h1 {
-  color: #87F2D9;
+  color: #03254c;
   font-size: 5vh;
   font-family: 'Lora', sans-serif;
 }
 
 h2 {
-  color: #87F2D9;
+  color: #03254c;
   font-size: 4vh;
   font-family: 'Lora', sans-serif;
 }
 
 h3 {
-  color: #87F2D9;
+  color: #03254c;
   font-size: 3vh;
   font-family: 'Lora', sans-serif;
 }
 
 h4 {
-  color: #87F2D9;
+  color: #03254c;
   font-size: 2vh;
   font-family: 'Lora', sans-serif;
 }
 
 h5 {
-  color: #87F2D9;
+  color: #03254c;
   font-size: 0.5vh;
   font-family: 'Lora', sans-serif;
   text-align: center;
 }
 
 p {
-  color: #87F2D9;
+  color: #03254c;
   font-size: 1.5vh;
   font-family: 'Lora', sans-serif;
 }
@@ -56,7 +56,7 @@ p {
 }
 
 .bg {
-  background-color: #03254c !important;
+  background-color: #0B132B !important;
   /* url("../img/background.jpg") */
   text-align: left;
 }
@@ -77,7 +77,7 @@ p {
   .bg {
     /* background-image: url("../img/background.jpg") !important; */
 
-    background-color: #03254c;
+    background-color: #0B132B;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
