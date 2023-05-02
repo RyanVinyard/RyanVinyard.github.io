@@ -6,38 +6,38 @@ body, html{
 
 
 h1 {
-  color: #03254c;
+  color: #F3E8EE;
   font-size: 5vh;
   font-family: 'Lora', sans-serif;
 }
 
 h2 {
-  color: #03254c;
+  color: #F3E8EE;
   font-size: 4vh;
   font-family: 'Lora', sans-serif;
 }
 
 h3 {
-  color: #03254c;
+  color: #F3E8EE;
   font-size: 3vh;
   font-family: 'Lora', sans-serif;
 }
 
 h4 {
-  color: #03254c;
+  color: #F3E8EE;
   font-size: 2vh;
   font-family: 'Lora', sans-serif;
 }
 
 h5 {
-  color: #03254c;
+  color: #F3E8EE;
   font-size: 0.5vh;
   font-family: 'Lora', sans-serif;
   text-align: center;
 }
 
 p {
-  color: #03254c;
+  color: #F3E8EE;
   font-size: 1.5vh;
   font-family: 'Lora', sans-serif;
 }
@@ -65,7 +65,7 @@ p {
 
 @media (min-width:620px) {
   .jumbotron {
-    background-color: rgba(90,100,110,0.91);
+    background-color: rgba(90,100,110,1.0);
     padding-left: 2vw;
     padding-right: 2vw;
     padding-top: 2vh;
@@ -219,7 +219,7 @@ a:hover {
     height: 100%;
     border-radius: 50%;
     position: relative;
-    background-color: #0B132B;
+    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
