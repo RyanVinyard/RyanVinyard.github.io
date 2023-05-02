@@ -75,8 +75,9 @@ p {
     }
 
   .bg {
-    background-image: url("../img/background.jpg") !important; 
-    background-color: #283048; /* fallback for old browsers */
+    /* background-image: url("../img/background.jpg") !important; */
+
+    background-color: #03254c;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
